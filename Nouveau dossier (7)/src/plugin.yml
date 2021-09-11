@@ -1,0 +1,9 @@
+name: QuestPlugin
+version: 1.0.0
+author: LudoLeBg
+
+main: fr.ludo.QuestPlugin
+
+commands:
+   quests:
+      description: Quests
