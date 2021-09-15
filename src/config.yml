@@ -1,0 +1,29 @@
+quests:
+    quest01:
+        type: KILL_MOBS
+        specify: ALL
+        amount: 10
+        rewardcmd: "say kill_mobs"
+        
+    quest02:
+        type: PLACE_BLOCK
+        specify: STONE
+        amount: 10
+        rewardcmd: "say place_block"
+        
+    quest03:
+        type: BREAK_BLOCK
+        specify: STONE
+        amount: 10
+        rewardcmd: "say break_block"
+        
+    quest04:
+        type: RUN_CMD
+        specify: "/run"
+        amount: 10
+        rewardcmd: "say run_cmd"
+        
+    quest05:
+        type: WALK_DISTANCE
+        amount: 100
+        rewardcmd: "say walk_distance"
